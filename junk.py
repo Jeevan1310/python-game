@@ -20,7 +20,10 @@ def acess():
             print("acces granted")
         else:
             print("acess denied")
+    else:
+        print("Sorry wrong device ")
 
 
 simple()
 max()
+acess()
