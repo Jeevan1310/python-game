@@ -12,6 +12,7 @@ def acess():
         d=input("Welcome samsung , Enter Your passcode  ")
         if d=='1234':
             print("acces granted")
+            print("we want to verify it ")
         else:
             print("acess denied")
     elif s=='apple':
