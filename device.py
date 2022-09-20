@@ -1,3 +1,5 @@
+
+
 print(" - Welcome to Dixia -")
 def acess():
     s=input("Enter the device name")
@@ -27,9 +29,11 @@ def acess():
 
 a=['Owner','Guest','user2.0']
 
+
 user=input("Enter Your user name ")
 
 if user in a :
     print("Succes")
+    acess()
 else:
     print("Unsuccesful")
