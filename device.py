@@ -29,5 +29,7 @@ a=['Owner','Guest','user2.0']
 
 user=input("Enter Your user name ")
 
-if user == a:
+if user in a :
     print("Succes")
+else:
+    print("Unsuccesful")
