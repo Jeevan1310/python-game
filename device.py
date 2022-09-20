@@ -25,3 +25,9 @@ def acess():
 
 #Main plot configuration
 
+a=['Owner','Guest','user2.0']
+
+user=input("Enter Your user name ")
+
+if user == a:
+    print("Succes")
