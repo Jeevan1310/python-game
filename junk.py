@@ -21,6 +21,12 @@ def acess():
             print("acces granted")
         else:
             print("acess denied")
+    elif s=='realme':
+        c=input("Welcome Realeme , Enter Your passcode  ")
+        if c=='###2':
+            print("acces granted")
+        else:
+            print("acess denied")
     else:
         print("Sorry wrong device ")
 
