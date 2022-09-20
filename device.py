@@ -1,4 +1,4 @@
-print("Welcome")
+print(" - Welcome to Dixia -")
 def acess():
     s=input("Enter the device name")
     if s=='samsung' :
@@ -23,6 +23,5 @@ def acess():
     else:
         print("Sorry wrong device ")
 
+#Main plot configuration
 
-
-acess()
