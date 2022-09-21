@@ -37,4 +37,6 @@ if user in a :
     print("Succes")
     acess()
 elif user in b:
-    print("Unsuccesful")
+    print("second type accesed")
+else:
+    print("unsucessful")
