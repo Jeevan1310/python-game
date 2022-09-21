@@ -37,7 +37,7 @@ if user in a :
     acess()
 elif user in b:
     print("second type accesed")
-    num=int(input("enter key : "))
-    fa(num)
+    k=input("enter key : ")
+    fa(k)
 else:
     print("unsucessful")
