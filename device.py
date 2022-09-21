@@ -1,5 +1,4 @@
-
-
+from my_fa import fa
 print(" - Welcome to Dixia -")
 def acess():
     user_input=input("Enter the device name : ")
@@ -38,5 +37,7 @@ if user in a :
     acess()
 elif user in b:
     print("second type accesed")
+    num=int(input("enter key : "))
+    fa(num)
 else:
     print("unsucessful")
