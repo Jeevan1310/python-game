@@ -2,22 +2,22 @@
 
 print(" - Welcome to Dixia -")
 def acess():
-    s=input("Enter the device name")
-    if s=='samsung' :
+    user_input=input("Enter the device name : ")
+    if user_input=='samsung' :
         d=input("Welcome samsung , Enter Your passcode  ")
         if d=='1234':
             print("acces granted")
             print("we want to verify it ")
         else:
             print("acess denied")
-    elif s=='apple':
+    elif user_input=='apple':
         c=input("Welcome apple , Enter Your passcode  ")
         if c=='0001':
             print("acces granted")
         else:
             print("acess denied")
-    elif s=='realme':
-        c=input("Welcome Realeme , Enter Your passcode  ")
+    elif user_input == 'realme':
+        c=input("Welcome Realme , Enter Your passcode  ")
         if c=='###2':
             print("acces granted")
         else:
@@ -28,6 +28,7 @@ def acess():
 #Main plot configuration
 
 a=['Owner','Guest','user2.0']
+b=['Admin','User','maxie']
 
 
 user=input("Enter Your user name ")
@@ -35,5 +36,5 @@ user=input("Enter Your user name ")
 if user in a :
     print("Succes")
     acess()
-else:
+elif user in b:
     print("Unsuccesful")
