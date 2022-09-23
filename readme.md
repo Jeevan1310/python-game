@@ -2,4 +2,6 @@
 
 # About the repository
 
-demo
+<-info need to be added->
+
+# About the creator
